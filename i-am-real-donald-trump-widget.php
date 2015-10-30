@@ -24,9 +24,9 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-add_action('widgets_init', 'featured_comment_widget_init', 1);
-function featured_comment_widget_init() {
-  register_widget('Featured_Comment_Widget');
+add_action('widgets_init', 'i_am_real_donald_trump_widget_init', 1);
+function i_am_real_donald_trump_widget_init() {
+  register_widget('I_Am_Real_Donald_Trump_Widget');
   load_plugin_textdomain('i-am-real-donald-trump-widget', false, basename( dirname( __FILE__ ) ) . '/languages' );
 }
 
@@ -62,8 +62,8 @@ class I_Am_Real_Donald_Trump_Widget extends WP_Widget {
     $twitterHandle = strip_tags($instance['twitterHandle']);
 
     echo '<p>' .
-          '<label for="' . $this->get_field_id('twitterHandle') . '">' . _e('Your Twitter Handle','i-am-real-donald-trump-widget') . ': ' . 
-          '<input class="widefat" id="' . $this->get_field_id('twitterHandle') .'" name="' . $this->get_field_name('twitterHandle') .'" type="text" value="' . esc_attr($twitterHandle) . '" /></label>' . 
+          '<label for="' . $this->get_field_id('twitterHandle') . '">' . __('Your Twitter Handle','i-am-real-donald-trump-widget') . ': ' . 
+          '<input class="widefat" id="' . $this->get_field_id('twitterHandle') .'" name="' . $this->get_field_name('twitterHandle') .'" type="text" value="' . esc_attr($twitterHandle) . '" placeholder="realDonaldTrump" /></label>' . 
          '</p>';
   }
   
