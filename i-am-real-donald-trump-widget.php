@@ -52,7 +52,7 @@ class I_Am_Real_Donald_Trump_Widget extends WP_Widget {
       return;
     }
     
-    require_once('config.php');
+    require_once('config/config.php');
     
     // get latest tweet
     $url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';

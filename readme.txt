@@ -16,14 +16,16 @@ Installing this plugin adds the I Am Real Donald Trump Widget to your list of av
 
 == Changelog ==
 
-1.0 Welcome to the World Wide Web™ my sweet hot new widget!
+1.0 Welcome to the World Wide Web™ my sweet hot new widget that takes way more effort to configure than it's worth!
 
 == Installation ==
 
-1. Upload `i-am-real-donald-trump-widget.php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Add the widget through the 'Widgets' submenu under 'Appearance' in WordPress
-4. Add your choice widget title and your personal twitter handle in the widget and save.
+1. Upload `i-am-real-donald-trump-widget` to the `/wp-content/plugins/` directory
+2. Add your twitter app tokens to `config/config-example.php` (a good resource is this stackoverflow answer lol: http://stackoverflow.com/questions/12916539/simplest-php-example-for-retrieving-user-timeline-with-twitter-api-version-1-1/15314662#15314662)
+3. Rename `config-example.php` to `config.php`.
+4. Activate the plugin through the 'Plugins' menu in WordPress
+5. Add the widget through the 'Widgets' submenu under 'Appearance' in WordPress
+6. Add your choice widget title and your personal twitter handle in the widget and save.
 
 == Widget CSS ==
 
