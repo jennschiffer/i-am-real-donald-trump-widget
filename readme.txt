@@ -12,7 +12,7 @@ Stable tag: 1.0
 
 The I Am Real Donald Trump Widget gives you the ability to be the Real Donald Trump, or at least make it look like you tweet like him.
 
-Installing this plugin adds the I Am Real Donald Trump Widget to your list of available widgets in the 'Widgets' submenu (which you can find under 'Appearance' in your WordPress dashboard). Adding your twitter handle to the widget form will make a random Donald tweet look like it came from you. This is super important and will change your life and possibly greatly increase your S.E.O.™
+Installing this plugin adds the I Am Real Donald Trump Widget to your list of available widgets in the 'Widgets' submenu (which you can find under 'Appearance' in your WordPress dashboard). Adding your choice widget title and twitter handle to the widget form will make the latest Donald tweet look like it came from you. This is super important and will change your life and possibly greatly increase your S.E.O.™
 
 == Changelog ==
 
@@ -23,7 +23,7 @@ Installing this plugin adds the I Am Real Donald Trump Widget to your list of av
 1. Upload `i-am-real-donald-trump-widget.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Add the widget through the 'Widgets' submenu under 'Appearance' in WordPress
-4. Add your twitter handle in the widget and save.
+4. Add your choice widget title and your personal twitter handle in the widget and save.
 
 == Widget CSS ==
 
@@ -32,4 +32,4 @@ The following are the classes and explanations of them for those of you who want
 == Screenshots ==
 
 1. The I Am Real Donald Trump Widget form.
-2. The I Am Real Donald Trump Widget as shown on an example blog.
+2. The I Am Real Donald Trump Widget as shown on an example blog, talking about lairs.
