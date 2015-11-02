@@ -31,11 +31,6 @@ function i_am_real_donald_trump_widget_init() {
   load_plugin_textdomain('i-am-real-donald-trump-widget', false, basename( dirname( __FILE__ ) ) . '/languages' );
 }
 
-add_action('wp_head', 'i_am_real_donald_trump_widget_css');
-function i_am_real_donald_trump_widget_css() {
-  echo '<style type="text/css"></style>';
-}
-
 class I_Am_Real_Donald_Trump_Widget extends WP_Widget {
 
   public function __construct() {
